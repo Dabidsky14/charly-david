@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treat Tasty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Cake Paradise</h1>
+        <p>"Order Your Favorite Cake Flavor"</p>
+    </header>
+
+    <main>
+        <section id="order-cake">
+            <h2>Order Your Cake</h2>
+            <form action="submit_order.php" method="POST" enctype="multipart/form-data">
+                <label for="flavor">Choose Flavor:</label>
+                <select id="flavor" name="flavor" required>
+                    <option value="Chocolate">Chocolate</option>
+                    <option value="Strawberry">Strawberry Vanilla</option>
+                    <option value="Mocha">Mocha</option>
+                </select>
+
+                <label for="size">Choose Size:</label>
+                <select id="size" name="size" required>
+                    <option value="6">6 inches (serves 6)</option>
+                    <option value="8">8 inches (serves 10)</option>
+                    <option value="10">10 inches (serves 15)</option>
+                </select>
+                
+
+            <label for="icing">Choose Icing:</label>
+            <select id="icing" onchange="updateCakePreview()">
+                <option value="Buttercream">Buttercream</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Caramel">Caramel</option>
+            </select>
+            
+     <label for="Topings">Choose a addtional Topings:</label>
+            <select id="icing" onchange="updateCakePreview()">
+                <option value="Cheesecake">Cheesecake</option>
+                <option value="Red Velvet">Red Velvet</option>
+                <option value="Chocolate">Chocolate</option>
+            </select>
+<div>
+      <label for="filling">Choose Filling:</label>
+      <select id="filling">
+        <option value="strawberry">Strawberry</option>
+        <option value="Custard Filling">Custard Filling</option>
+        <option value="Bavarian Cream">Bavarian Cream</option>
+      </select>
+    </div>
+        <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Full Name" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="message">Personal Message:</label>
+                <input type="text" id="message" name="message" placeholder="Enter your message" required>
+
+
+            <label for="notes">Additional Notes (Optional):</label>
+            <textarea id="notes" name="notes" rows="4" placeholder="Describe your custom design (optional)"></textarea>
+            
+                <label for="design">Upload Your Design:</label>
+                <input type="file" id="design" name="design" accept="image/*">
+
+                <button type="submit">Order Now</button>
+            </form>
+        </section>
+     
+        <section id="gallery">
+            <h2>Our Cake Flavor</h2>
+            <div class="cake-images">
+                <img src="cake.jpg" alt="Chocolate Cake"> 
+                <img src="cake2.jpg" alt="Strawberry Vanilla Cake">
+                <img src="cake3.jpg" alt="Mocha Cake">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contact us at info@jdcabsbakeshop.com</p>
+    </footer>
+</body>
+</html>

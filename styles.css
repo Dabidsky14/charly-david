@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+header {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: ;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: red;
+    font-weight: 3px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #219150;
+}
+
+.cake-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cake-images img {
+    width: 30%;
+    border-radius: 5px;
+    border-style: solid;
+}
+h1{
+    font-size: xx-large;
+    color: purple;
+}
+p{
+    color: violet;
+    font-size: large;
+    font-weight: bolder;
+}
+select{
+    color: purple;
+}
