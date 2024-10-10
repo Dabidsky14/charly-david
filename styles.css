@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: white;
-    color: white;
+    background-color: wheat;
+    color: wheat;
     text-align: center;
     padding: 20px;
 }
@@ -17,7 +17,7 @@ main {
 }
 
 h2 {
-    color: ;
+    color: darkorchid;
 }
 
 form {
@@ -30,7 +30,7 @@ form {
 label {
     display: block;
     margin: 10px 0 5px;
-    color: red;
+    color: black;
     font-weight: 3px;
 }
 
@@ -62,6 +62,7 @@ button:hover {
     width: 30%;
     border-radius: 5px;
     border-style: solid;
+    border-radius: 50px;
 }
 h1{
     font-size: xx-large;
@@ -69,9 +70,13 @@ h1{
 }
 p{
     color: violet;
-    font-size: large;
+    font-size: 22px;
     font-weight: bolder;
 }
 select{
     color: purple;
+}
+footer p{
+    font-size: xx-large;
+    color: darkorchid;
 }
